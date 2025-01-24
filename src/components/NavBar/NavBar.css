@@ -1,0 +1,74 @@
+.logo {
+    height: 60px;
+    width: 148px;
+    cursor: pointer;
+}
+
+.my-btn {
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    padding: 7px 12px;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 14px;
+    width: 72px;
+    transition: opacity 0.3s ease;
+}
+
+.my-btn:hover {
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    opacity: 0.9; 
+}
+
+#dropdown-basic-button {
+    background-color: black;
+    border: 1px solid rgb(247, 245, 245);
+    padding: 6px 36px 6px 34px;
+}
+.stack-custom {
+    margin-top: 0;
+    padding-left: 148px;
+    padding-right: 148px;
+    margin-bottom: 120px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 64px;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.9) 0%,
+        rgba(0, 0, 0, 0.7) 50%,
+        transparent 100%
+    );
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-left: 32px;
+  }
+  
+  .nav-link {
+    color: #b3b3b3;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: white;
+  }

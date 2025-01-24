@@ -1,0 +1,40 @@
+/* .card-container {
+    width: auto;
+    padding: 32px;
+    border-radius: 10px;
+    color: red;
+    } */
+.card-container {
+    background: linear-gradient(rgba(65, 7, 53, 0.5), rgba(65, 7, 53, 0.5));
+    width: 400px; 
+    height: auto; 
+    margin: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    overflow: hidden; 
+    color: white;
+  }
+  
+  .card-container .card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-container .card-title {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center; 
+  }
+  
+  .card-container .card-text {
+    font-size: 1rem;
+    text-align: center;
+    color: #555; 
+    padding: 0 10px; 
+    word-wrap: break-word; 
+  }
+  

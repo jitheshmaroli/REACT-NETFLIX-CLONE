@@ -1,0 +1,78 @@
+.card-row-container {
+    background-color: black;
+    padding: 15px;
+    padding-left: 148px;
+    padding-right: 148px;
+  }
+  
+  .card-row-container h2 {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .card-item {
+    text-align: center;
+  }
+  
+  .card-image {
+    cursor: pointer;
+    width: 180px;
+    height: 252px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .swiper {
+    padding: 20px 0;
+  }
+
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .modal-content {
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+  
+.modal-details {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e83c3c;
+  }
